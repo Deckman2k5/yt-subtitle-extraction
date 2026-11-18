@@ -1,0 +1,27 @@
+{
+  "name": "yt-subtitle-extraction",
+  "version": "1.0.0",
+  "description": "Extract transcripts from YouTube videos, with full support for Japanese and other languages",
+  "main": "dist/src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --import tsx src/index.ts",
+    "cli": "tsx src/index.ts"
+  },
+  "keywords": [
+    "youtube",
+    "transcript",
+    "subtitle",
+    "japanese"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "youtubei.js": "^18.3.0"
+  }
+}
